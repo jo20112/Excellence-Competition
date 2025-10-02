@@ -1,0 +1,12 @@
+{
+  "buildCommand": "cd AdminLeaderboard && npm run build",
+  "devCommand": "cd AdminLeaderboard && npm run dev",
+  "installCommand": "cd AdminLeaderboard && npm install",
+  "outputDirectory": "AdminLeaderboard/dist/public",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
+}
